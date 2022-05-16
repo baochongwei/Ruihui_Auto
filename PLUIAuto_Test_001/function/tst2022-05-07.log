@@ -1,0 +1,23 @@
+2022-05-07 09:31:04,473 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-07 09:31:05,304 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:31:05,316 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÓÃ»§Ãû OK
+2022-05-07 09:31:06,374 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:31:06,393 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÃÜÂë OK
+2022-05-07 09:31:09,470 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:31:09,488 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_µÇÂ½°´Å¥ OK
+2022-05-07 09:31:52,976 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-07 09:31:53,883 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:31:53,895 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÓÃ»§Ãû OK
+2022-05-07 09:31:54,960 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:31:54,977 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÃÜÂë OK
+2022-05-07 09:31:58,044 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:31:58,055 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_µÇÂ½°´Å¥ OK
+2022-05-07 09:41:37,622 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-07 09:41:38,354 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:42:25,702 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-07 09:42:26,476 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:42:26,490 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÓÃ»§Ãû OK
+2022-05-07 09:42:27,563 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:42:27,574 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÃÜÂë OK
+2022-05-07 09:42:28,639 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-07 09:42:28,652 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_µÇÂ½°´Å¥ OK
