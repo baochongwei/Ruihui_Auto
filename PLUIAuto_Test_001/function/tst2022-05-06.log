@@ -1,0 +1,26 @@
+2022-05-06 17:47:30,931 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-06 17:47:31,288 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:47:31,297 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÓÃ»§Ãû OK
+2022-05-06 17:47:32,385 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:47:32,399 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÃÜÂë OK
+2022-05-06 17:47:35,480 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:47:35,488 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_µÇÂ½°´Å¥ OK
+2022-05-06 17:50:13,665 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-06 17:50:50,620 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-06 17:51:25,294 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-06 17:53:17,391 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-06 17:53:17,855 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:53:17,869 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÓÃ»§Ãû OK
+2022-05-06 17:53:18,949 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:53:18,956 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÃÜÂë OK
+2022-05-06 17:53:22,043 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:53:22,057 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_µÇÂ½°´Å¥ OK
+2022-05-06 17:55:42,106 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-06 17:55:42,517 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:56:38,411 - log.py:25 - tst - http://sso.iplenmes.cn:8031/cas/login?service=http%3A%2F%2Fwww.iplenmes.cn%2Fportal%2F
+2022-05-06 17:56:39,082 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:56:39,102 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÓÃ»§Ãû OK
+2022-05-06 17:56:40,181 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:56:40,199 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_ÃÜÂë OK
+2022-05-06 17:56:43,288 - log.py:25 - tst - µÇÂ¼Ò³Ãæ
+2022-05-06 17:56:43,307 - log.py:25 - tst - µÇÂ¼Ò³Ãæ_µÇÂ½°´Å¥ OK
