@@ -17,7 +17,7 @@ import time
 def creatsuitel(lists):
     testunit = unittest.TestSuite()
     # discover 方法定义
-    discover = unittest.defaultTestLoader.discover(lists, pattern='start_Case_JLGL.py', top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(lists, pattern='start_*.py', top_level_dir=None)
     # 可以修改pattern中的值批量执行脚本
     # 例如：discover = unittest.defaultTestLoader.discover(lists, pattern='start_*.py', top_level_dir=None)
     # 这样回执行所有开头为start_的脚本文件
