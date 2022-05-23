@@ -120,7 +120,7 @@ get_sex = lambda :random.choice(['男','女'])
 # 截图操作
 def GetScreenshot(driver,filename = 1):
     """
-
+    实现截图功能
     :param driver: 生成的driver
     :param filename: 非必填，传入文件名称，例如：aaa,最后会生成aaa.png的图片文件。如果不填，默认按照时间生成，精确到秒
     :return: 无
@@ -148,15 +148,17 @@ def GetScreenshot(driver,filename = 1):
 
 
 # 使用方法和测试方法
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # print(get_random_str(30))# 返回制定长度随机字符串
     # print(get_phone_num()) # 生成随机电话号码
     # print(get_random_int(0,8000))  # 生成随机数
     # print(get_idnum()) # 生成随机数
     # 截图操作
-    driver = browser_config['chrome']()
-    uihandle = UIHandle(driver)
-    Login_Test_OF_PL().User_Login(driver, uihandle)
-    GetScreenshot(driver,"aa")
-    GetScreenshot(driver)
-    driver.quit()
+    # driver = browser_config['chrome']()
+    # uihandle = UIHandle(driver)
+    # Login_Test_OF_PL().User_Login(driver, uihandle)
+    # from PLUIAuto_Test_001.encapsulation.Tools_functions import *  # 引用方法
+    # GetScreenshot(driver,"aa") # 生成aa.png
+    # GetScreenshot(driver) # 生成操作时间为名称的文件
+    # driver.quit()
+    # 截图操作结束
