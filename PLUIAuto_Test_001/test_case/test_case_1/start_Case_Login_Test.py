@@ -38,14 +38,6 @@ class Test_OF_Login(unittest.TestCase):
         Test_Login = Login_Test_OF_PL().User_Login(self.driver,self.uihandle)
         self.assertEqual(Test_Login, "门户首页网站", '登录失败')
 
-    def test_3_BAXD_Login(self):
-        """
-        验证内容待补充
-
-        :return:
-        """
-        pass
-
     def tearDown(self):
         self.driver.quit()
 

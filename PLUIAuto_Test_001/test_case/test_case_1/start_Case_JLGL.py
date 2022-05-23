@@ -26,7 +26,7 @@ class Test_OF_JLGL(unittest.TestCase):
         #
         FHXX = JLGL_Test_OF_PL().JLGL_JLTXWDGL_XZML(self.driver,self.uihandle)
         # 通过返回的title判断返回的页面时候符合预期
-        self.assertEqual(FHXX,"1", '计量管理模块创建失败')
+        self.assertEqual(FHXX,"1", '计量管理模块创建目录失败')
 
 
     def tearDown(self):
