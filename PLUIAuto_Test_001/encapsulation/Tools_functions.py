@@ -7,6 +7,13 @@
 # 封装常用的非selenium方法
 import random
 from PLUIAuto_Test_001.constant.constant_1 import province_id
+import base64
+import os
+import datetime
+# for test
+from PLUIAuto_Test_001.encapsulation.encapsulation import UIHandle
+from PLUIAuto_Test_001.config.config import browser_config
+from PLUIAuto_Test_001.function.LoginSystem import *
 
 def get_random_str(randomlength=16):
   """
@@ -110,9 +117,46 @@ def get_birthday():
 # 匿名函数
 get_sex = lambda :random.choice(['男','女'])
 
+# 截图操作
+def GetScreenshot(driver,filename = 1):
+    """
+
+    :param driver: 生成的driver
+    :param filename: 非必填，传入文件名称，例如：aaa,最后会生成aaa.png的图片文件。如果不填，默认按照时间生成，精确到秒
+    :return: 无
+    """
+    # 以天为单位，增加截图文件夹
+    now_time_one = datetime.datetime.now()
+    # 取当前文件所在路径为绝对路径
+    screenshot_dir = os.path.dirname(__file__) + "\log\screenshots_" + datetime.datetime.strftime(now_time_one,"%Y_%m_%d")
+    if not os.path.exists(screenshot_dir):
+        os.makedirs(screenshot_dir)
+    base64_data = driver.get_screenshot_as_base64()
+    png_data = base64.b64decode(base64_data)
+    # 判断filename是否传参，如果没有传，默认按照日期生成文件名称；如果传了，按照传的内容生成截图名称
+    if(filename == 1):
+        now_time = datetime.datetime.now()
+        Timesstring = datetime.datetime.strftime(now_time,"%Y_%m_%d_%H_%M_%S.png")
+        filename = os.path.join(screenshot_dir,Timesstring)
+        with open(filename, 'wb') as f:
+            f.write(png_data)
+    else:
+        filename_New = filename + ".png"
+        filename = os.path.join(screenshot_dir, filename_New)
+        with open(filename, 'wb') as f:
+            f.write(png_data)
+
+
 # 使用方法和测试方法
-# if __name__ == '__main__':
-#     print(get_random_str(30))# 返回制定长度随机字符串
-#     print(get_phone_num()) # 生成随机电话号码
-#     print(get_random_int(0,8000))  # 生成随机数
-#     print(get_idnum()) # 生成随机数
+if __name__ == '__main__':
+    # print(get_random_str(30))# 返回制定长度随机字符串
+    # print(get_phone_num()) # 生成随机电话号码
+    # print(get_random_int(0,8000))  # 生成随机数
+    # print(get_idnum()) # 生成随机数
+    # 截图操作
+    driver = browser_config['chrome']()
+    uihandle = UIHandle(driver)
+    Login_Test_OF_PL().User_Login(driver, uihandle)
+    GetScreenshot(driver,"aa")
+    GetScreenshot(driver)
+    driver.quit()
