@@ -70,10 +70,24 @@ locat_config_JLGL = {
     # 计量体系文档管理右侧功能元素
     "计量体系文档管理页面":{
         # 主页面按钮
-        "新增目录":['xpath', "//span[text()='计量器具综合展示']"],
-        "编辑目录":['xpath', "//span[text()='进厂数据展示']"],
-        "删除目录":['xpath', "//span[text()='出厂数据展示']"],
-        "器具综合展示":['xpath', "//span[text()='器具综合展示']"],
+        "新增目录":['xpath', "//span[text()='新增目录']"],
+        "编辑目录":['xpath', "//span[text()='编辑目录']"],
+        "删除目录":['xpath', "//span[text()='删除目录']"],
+        "新增文件":['xpath', "//span[text()='新增文件']"],
+        "编辑文件":['xpath', "//span[text()='编辑文件']"],
+        "删除文件":['xpath', "//span[text()='删除文件']"],
+    },
+    # 新增/编辑目录页面
+    "计量体系文档管理新增编辑目录":{
+        "所有工厂选项":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[2]/form/div[1]/div/div/div/input"],
+        "所有工厂首选":["xpath", "//span[text()='生产工厂']"],
+        "目录名称":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[2]/form/div[2]/div/div/input"],
+        "目录备注":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[2]/form/div[3]/div/div/textarea"],
+        "目录序号填写":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[2]/form/div[4]/div/div/div/input"],
+        "目录序号上移":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[2]/form/div[4]/div/div/span[2]"],
+        "目录序号下移":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[2]/form/div[4]/div/div/span[1]"],
+        "确定":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[3]/span/button[2]"],
+        "取消":["xpath", "/html/body/div[1]/section/section/main/div/div[4]/div/div/div[3]/span/button[1]"],
 
     }
 }

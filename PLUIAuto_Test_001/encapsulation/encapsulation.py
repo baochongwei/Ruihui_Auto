@@ -8,6 +8,8 @@
 from PLUIAuto_Test_001.log.log import Logger
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 
 
@@ -313,3 +315,18 @@ class UIHandle():
         """
         Str_Title = cls.driver.title
         return Str_Title
+
+    # 获取填写的选项内容
+    @classmethod
+    def Choose_Element(cls,xpath,number):
+        """
+
+        :param xpath: 录入xpath
+        :param number: 录入需要进行选择的次数，填写数字，例如：1
+        :return:
+        """
+        el = cls.element(xpath)
+        ActionChains(cls.driver).click(el).perform()
+        for i in range(number):
+            ActionChains(cls.driver).send_keys(Keys.DOWN).perform()
+        ActionChains(cls.driver).send_keys(Keys.ENTER).perform()
